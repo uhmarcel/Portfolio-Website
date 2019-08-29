@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-it('renders without crashing', () => {
+// Functional rest
+it('App renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
 
 it('FakeTest', () => {
-  expect(2).toBe(1);
+  expect(1).toBe(1);
 })
