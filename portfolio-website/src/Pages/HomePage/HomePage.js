@@ -1,10 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import Banner from '../../Components/Banner/Banner';
+import ServicesSection from '../../Components/ServicesSection/ServicesSection';
 
 class HomePage extends Component {
 
     render() {
         return (
-            <h1>Home page component</h1>
+            <Fragment>
+                <Banner />
+                <ServicesSection />
+            </Fragment>
         );
     }
 

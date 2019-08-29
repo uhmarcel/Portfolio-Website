@@ -1,0 +1,12 @@
+#footer {    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    height: 40px;
+}
+
+.footer-block {
+    margin: 9px 0;
+}

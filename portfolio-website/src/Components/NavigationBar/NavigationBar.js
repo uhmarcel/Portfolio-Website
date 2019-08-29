@@ -15,28 +15,28 @@ class NavigationBar extends Component {
     render() {
         return (
             <div>
-              <Navbar color="dark" dark expand="md">
-                <NavbarBrand tag={Link} to='/'>MarcelRiera.me</NavbarBrand>
-                <NavbarToggler onClick={this.toogleNavbar} />
-                <Collapse isOpen={this.state.isOpen} navbar>
-                  <Nav className="ml-auto" navbar>
-                    <NavItem>
-                      <NavLink tag={Link} to='/about'>Home</NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink tag={Link} to='/about'>Projects</NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink href="https://github.com/uhmarcel">GitHub</NavLink>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink tag={Link} to='/about'>About</NavLink>
-                    </NavItem>
-                  </Nav>
-                </Collapse>
-              </Navbar>
+                <Navbar color="dark" dark expand="md">
+                    <NavbarBrand tag={Link} to='/'>MarcelRiera.me</NavbarBrand>
+                    <NavbarToggler onClick={this.toogleNavbar} />
+                    <Collapse isOpen={this.state.isOpen} navbar>
+                        <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <NavLink tag={Link} to='/'>Home</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink tag={Link} to='/projects'>Projects</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink tag={Link} to='/about'>About</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="https://github.com/uhmarcel" target="_blank">GitHub</NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                </Navbar>
             </div>
-          );
+        );
     }
 
 }
