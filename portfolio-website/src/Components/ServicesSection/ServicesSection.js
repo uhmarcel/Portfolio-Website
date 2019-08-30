@@ -11,7 +11,7 @@ class ServicesSection extends Component {
         return (
             <div>
                 <Container>
-                    <Row>
+                    <Row className='pb-5'>
                         <Col md='4'>
                             <ServicesItem img={softwarePNG} title='Software Engineering' description='Customizable software solutions made to fit specific business needs.'/>
                         </Col>

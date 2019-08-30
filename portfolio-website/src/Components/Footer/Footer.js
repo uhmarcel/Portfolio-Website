@@ -6,8 +6,8 @@ class Footer extends Component {
     render() {
         return (
             <div id="footer" className='bg-light'>
-                <div class="container">
-                    <p class="footer-block text-small text-muted">Marcel Riera 2019</p>
+                <div className="container">
+                    <p className="footer-block text-small text-muted">Marcel Riera © 2019</p>
                 </div>
             </div>
         );

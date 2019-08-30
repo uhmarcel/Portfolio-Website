@@ -1,0 +1,32 @@
+.sectionTitle {
+    text-align: center;
+    font-size: 30px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+ul {
+    list-style-type: disc;
+    color: #333;
+}
+
+li {
+    margin-top: -2px;
+    font-size: 15px;
+}
+
+.header {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.line {
+    background: #c55;
+    margin: auto;
+    width: 260px;
+    height: 3px;
+}
+
+p {
+    font-size: 15px;
+}

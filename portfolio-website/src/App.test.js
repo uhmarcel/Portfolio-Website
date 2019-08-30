@@ -11,4 +11,4 @@ it('App renders without crashing', () => {
 
 it('FakeTest', () => {
   expect(1).toBe(1);
-})
+});
