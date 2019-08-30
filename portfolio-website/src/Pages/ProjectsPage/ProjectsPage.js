@@ -10,29 +10,29 @@ class ProjectsPage extends Component {
     render() {
         const img = 'https://cdn.shopify.com/s/files/1/1297/3303/products/21-hardwood-player-s-chessboard-with-2-25-squares-jlp-usa-21184577793_grande.jpg?v=1516082090';
 
-        const projectJSON = [{
-                name: 'chess-engine-CLI',
-                description: 'A chess engine bla'
-            },{
-                name: 'github-engine-CLI',
-                description: 'bla'
-            },{
-                name: 'fibonacci-comparison',
-                description: 'bla'
-            },{
-                name: 'android-2d-sidescroll-game',
-                description: 'bla'
-            },{
-                name: 'turing-machine-simulation',
-                description: 'bla'
-            },{
-                name: 'pokemon-database',
-                description: 'bla'
-            },{
-                name: 'dungeon-cards',
-                description: 'bla'
-            }
-        ]
+        // const projectJSON = [{
+        //         name: 'chess-engine-CLI',
+        //         description: 'A chess engine bla'
+        //     },{
+        //         name: 'github-engine-CLI',
+        //         description: 'bla'
+        //     },{
+        //         name: 'fibonacci-comparison',
+        //         description: 'bla'
+        //     },{
+        //         name: 'android-2d-sidescroll-game',
+        //         description: 'bla'
+        //     },{
+        //         name: 'turing-machine-simulation',
+        //         description: 'bla'
+        //     },{
+        //         name: 'pokemon-database',
+        //         description: 'bla'
+        //     },{
+        //         name: 'dungeon-cards',
+        //         description: 'bla'
+        //     }
+        // ]
 
         return (
             <Container>
@@ -49,7 +49,7 @@ class ProjectsPage extends Component {
                 </Row>
                 <Row>
                     <Col md='4'>
-                        <ProjectItem img={img} title={'project 1'} description={'hello world'} />
+                        <ProjectItem img={img} title={'project 1'} description={'hello worsld'} />
                     </Col>
                     <Col md='4'>
                         <ProjectItem img={img} title={'project 1'} description={'hello world'} />

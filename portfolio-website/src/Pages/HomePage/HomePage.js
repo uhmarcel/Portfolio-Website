@@ -3,6 +3,7 @@ import Banner from '../../Components/Banner/Banner';
 import ServicesSection from '../../Components/ServicesSection/ServicesSection';
 import TechnicalSection from '../../Components/TechnicalSection/TechnicalSection';
 import AboutSection from '../../Components/AboutSection/AboutSection';
+import ContactSection from '../../Components/ContactSection/ContactSection';
 
 class HomePage extends Component {
 
@@ -13,6 +14,7 @@ class HomePage extends Component {
                 <ServicesSection />
                 <AboutSection />
                 <TechnicalSection />
+                <ContactSection />
             </Fragment>
         );
     }

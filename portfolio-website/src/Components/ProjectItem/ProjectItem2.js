@@ -4,7 +4,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } fr
 class ProjectItem2 extends Component {
 
     render() {
-        const { img, title, description } = this.props;
+        const { img, title } = this.props;
         return (
             <div>
             <Card>
