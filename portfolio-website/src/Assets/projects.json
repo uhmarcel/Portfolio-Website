@@ -1,0 +1,160 @@
+{
+    "projects": [
+        {
+            "title": "HenryBooks Database",
+            "description": "A web application made to browse and manage a book store company database. Features book searching, database browsing view, admin access for add, remove and update database operatins.",
+            "github": "https://github.com/uhmarcel/HenryBooks-Database",
+            "img": "https://raw.githubusercontent.com/uhmarcel/HenryBooks-Database/master/demo.PNG",
+            "demo": "https://henrybooks.herokuapp.com/",
+            "technologies": [
+                "Linux",
+                "Apache",
+                "MySQL",
+                "PHP",
+                "JS",
+                "CSS",
+                "Heroku"
+            ]
+        },
+        {
+            "title": "GitHub User Languages",
+            "description": "A web application that computes and shows a GitHub's user language statistics, made in React using GitHub graphQL API v4.",
+            "github": "https://github.com/uhmarcel/Github-User-Languages",
+            "img": "https://raw.githubusercontent.com/uhmarcel/Github-User-Languages/master/demo.PNG",
+            "demo": "https://github-user-languages.herokuapp.com/",
+            "technologies": [
+                "JS",
+                "Node.js",
+                "React",
+                "Bootstrap",
+                "Chart.js",
+                "GitHub.API",
+                "Express",
+                "Heroku",
+                "Responsive"
+            ]
+        },
+        {
+            "title": "Pokemon Database",
+            "description": "A web application to browse Pokemon and see their information. Features important data of each pokemon, search bar, and list virtualization to load entries dynamically on scroll. Made using React and PokeAPI rest interface.",
+            "github": "https://github.com/uhmarcel/Pokemon-Database",
+            "img": "https://raw.githubusercontent.com/uhmarcel/Pokemon-Database/master/demo.PNG",
+            "demo": "https://uhmarcel.github.io/Pokemon-Database/",
+            "technologies": [
+                "JS",
+                "React",
+                "Bootstrap",
+                "PokeAPI"
+            ]
+        },
+        {
+            "title": "Turing Machine Simulator",
+            "description": "A Turing-machine simulator web application using theory of algorithms state notation. Made using React.",
+            "github": "https://github.com/uhmarcel/Turing-Machine-Simulator",
+            "img": "https://raw.githubusercontent.com/uhmarcel/Turing-Machine-Simulator/master/demo.PNG",
+            "demo": "https://uhmarcel.github.io/Turing-Machine-Simulator",
+            "technologies": [
+                "JS",
+                "React",
+                "Bootstrap",
+                "codemirror.js"
+            ]
+        },
+        {
+            "title": "Chess Engine CLI",
+            "description": "Chess engine. Features bitset data structures for memory optimization, depth search first based minimax algorithm alpha beta prunning, move validation, move generation and opening book support. Made in C++ for better performance.",
+            "github": "https://github.com/uhmarcel/Chess-Engine-CLI",
+            "img": "https://raw.githubusercontent.com/uhmarcel/Chess-Engine-CLI/master/demo.PNG",
+            "demo": "",
+            "technologies": [
+                "C++"
+            ]
+
+        },
+        {
+            "title": "2D Sidescroll Game Engine for Android",
+            "description": "A 2D side scrolling game engine and editor for Android made using Processing. Features basic physics, collition detection, camera scroll, automatic image to sprite processing, three layer tile render. Map editor base on CVS format, using the tile id for each map cell.",
+            "github": "https://github.com/uhmarcel/Android-2D-Sidescroll-Game",
+            "img": "https://raw.githubusercontent.com/uhmarcel/Android-2D-Sidescroll-Game/master/demo.PNG",
+            "demo": "https://youtu.be/6WIKqc7xDGQ",
+            "technologies": [
+                "Java",
+                "Processing",
+                "Android"
+            ]
+        },
+        {
+            "title": "Recursive Tree Visual",
+            "description": "Simple Javascript program to generate a tree based on recursion and randomness.",
+            "github": "https://github.com/uhmarcel/Recursive-Tree-Visual",
+            "img": "https://raw.githubusercontent.com/uhmarcel/Recursive-Tree-Visual/master/demo.png",
+            "demo": "https://uhmarcel.github.io/Recursive-Tree-Visual/",
+            "technologies": [
+                "JS",
+                "p5.js"
+            ]
+        },
+        {
+            "title": "Eight Queens Solution Algorithm",
+            "description": "A visualization of all solutions to the classic eight-queens problem. Solved in Java using recursion, and graphics with Swing GUI. Extended to show fundamental solutions (without axial translations of the board).",
+            "github": "https://github.com/uhmarcel/Eight-Queens",
+            "img": "https://raw.githubusercontent.com/uhmarcel/uhmarcel.github.io/master/load/img/queens.PNG",
+            "demo": "https://uhmarcel.github.io/load/download/queens.jar",
+            "technologies": [
+                "Java",
+                "SwingGUI"
+            ]
+        },
+        {
+            "title": "Previous Portfolio Website",
+            "description": "My previous portfolio website project, to showcase some of the projects I've done. Made using HTML, JS, JQuery and CSS.",
+            "github": "https://github.com/uhmarcel/uhmarcel.github.io",
+            "img": "https://raw.githubusercontent.com/uhmarcel/uhmarcel.github.io/master/demo.PNG",
+            "demo": "https://uhmarcel.github.io/",
+            "technologies": [
+                "HTML5",
+                "JS",
+                "jQuery",
+                "CSS"
+            ]
+        },
+        {
+            "title": "GeekText e-Commerce Website",
+            "description": "Team project. A book store web application for browsing, commenting/rating and purchasing books. Project made for Software Engineering Class. We developed the application in a group of five using Scrum organization. I was in charge of the book page rating and commenting sections.",
+            "github": "https://github.com/uhmarcel/Geek-Text-7",
+            "img": "https://raw.githubusercontent.com/uhmarcel/Geek-Text-7/master/demo.PNG",
+            "demo": "",
+            "technologies": [
+                "C#",
+                "Glassfish",
+                "ASP.NET",
+                "MS-SQL",
+                "Bootstrap"
+            ]
+        },
+        {
+            "title": "2048 Game & AI",
+            "description": "A version of the classic 2048 game implemented on Java using Swing GUI, with an additional option to run an AI for solving the game.",
+            "github": "https://github.com/uhmarcel/2048-Game-AI",
+            "img": "https://uhmarcel.github.io/load/img/2048.PNG",
+            "demo": "https://uhmarcel.github.io/download/2048.jar",
+            "technologies": [
+                "Java",
+                "SwingGUI"
+            ]
+        },
+        {
+            "title": "",
+            "description": "",
+            "github": "",
+            "img": "",
+            "demo": "",
+            "technologies": [
+                "JS",
+                "React",
+                "Bootstrap",
+                "PokeAPI"
+            ]
+        }
+    ]
+}

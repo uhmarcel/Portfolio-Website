@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
 import { Jumbotron, Button, Container } from 'reactstrap';
+import './Banner.css';
+import BrandLinks from '../BrandLinks/BrandLinks';
 
 class Banner extends Component {
 
     render() {
         return (
-            <div>
-                <Jumbotron>
-                    <Container>
-                        <h1 className="display-3">Hello, world!</h1>
-                        <p className="lead-2">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-                        <hr className="my-2" />
-                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                        <p className="lead">
-                            <Button color="primary">Learn More</Button>
-                        </p>
+            <div className='shado'>
+                <div className='bannerContainer pt-5 m-0 text-uppercase'>
+                    <Container className='justify-content-center align-self-center text-center pb-5'>
+                        <h1 className="bannerTitle">Marcel Riera</h1>
+                         <hr className="my-2" />
+                         {/* <div className='line mb-2'/> */}
+                        <p className='lead'>Software Engineering</p>
+                        <BrandLinks/>
                     </Container>
-                </Jumbotron>
+                </div>
+                <div className='bg-dark' style={{height: '4px'}}/>
           </div>
         );
     }
@@ -24,3 +25,4 @@ class Banner extends Component {
 }
 
 export default Banner;
+

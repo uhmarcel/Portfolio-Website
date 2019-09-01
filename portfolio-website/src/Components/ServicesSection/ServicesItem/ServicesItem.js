@@ -8,7 +8,7 @@ class ServicesItem extends Component {
         return (
             <div className='container text-center pt-5'>
                 <img src={img} alt={title}  />
-                <h4>{title}</h4>
+                <p className='header mt-2'><b>{title}</b></p>
                 <p>{description}</p>
             </div>
         );

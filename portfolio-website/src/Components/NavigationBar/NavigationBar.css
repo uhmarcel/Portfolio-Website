@@ -1,0 +1,12 @@
+.brandNavbar {
+    color: #999;
+    padding-right: 7px;
+}
+
+.brandNavbar:hover {
+    color: #ccc;
+}
+
+.brandContainer {
+    margin: 8px 0 0 0;
+}

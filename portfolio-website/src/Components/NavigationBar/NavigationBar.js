@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { faGithub, faLinkedinIn, faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './NavigationBar.css';
 
 class NavigationBar extends Component {
 
@@ -13,24 +15,44 @@ class NavigationBar extends Component {
     }
 
     render() {
+        const { scrollTo } = this.props;
         return (
-            <div>
+            <div className='fixed-top shado'>
                 <Navbar color="dark" dark expand="md">
-                    <NavbarBrand tag={Link} to='/'>MarcelRiera.me</NavbarBrand>
+                    <NavbarBrand><span className='lead text-light'>marcelriera.me</span></NavbarBrand>
                     <NavbarToggler onClick={this.toogleNavbar} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <NavLink tag={Link} to='/'>Home</NavLink>
+                            <NavItem className='clickable' onClick={() => scrollTo('about')}>
+                                <NavLink>About</NavLink>
+                            </NavItem>
+                            <NavItem className='clickable' onClick={() => scrollTo('tech')}>
+                                <NavLink>Skills</NavLink>
+                            </NavItem>
+                            <NavItem className='clickable' onClick={() => scrollTo('proj')}>
+                                <NavLink>Projects</NavLink>
+                            </NavItem>
+                            <NavItem className='clickable' onClick={() => scrollTo('cont')}>
+                                <NavLink>Contact</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink tag={Link} to='/projects'>Projects</NavLink>
+                                <NavLink>Resume</NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink tag={Link} to='/about'>About</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="https://github.com/uhmarcel" target="_blank">GitHub</NavLink>
+                            <NavItem className='pl-md-2'> 
+                                <div className='brandContainer'>
+                                    <a href='https://www.twitter.com/' target='_blank' rel='noopener noreferrer' className='brandNavbar'>
+                                        <FontAwesomeIcon icon={faTwitter} />
+                                    </a>
+                                    <a href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer' className='brandNavbar'>
+                                        <FontAwesomeIcon icon={faFacebookF}/>
+                                    </a>
+                                    <a href='https://www.github.com/uhmarcel/' target='_blank' rel='noopener noreferrer' className='brandNavbar'>
+                                        <FontAwesomeIcon icon={faGithub} />
+                                    </a>
+                                    <a href='https://www.linkedin.com/' target='_blank' rel='noopener noreferrer' className='brandNavbar'>
+                                        <FontAwesomeIcon icon={faLinkedinIn} />
+                                    </a>
+                                </div>
                             </NavItem>
                         </Nav>
                     </Collapse>

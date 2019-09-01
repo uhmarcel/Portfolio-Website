@@ -1,0 +1,8 @@
+.brandIcon {
+    color: #5B9BCB;
+    padding-right: 8px;
+}
+
+.brandIcon:hover {
+    color: #4a8aba;
+}

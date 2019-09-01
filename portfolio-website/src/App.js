@@ -12,11 +12,11 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <NavigationBar />
+        {/* <NavigationBar /> */}
         <Route path="/" exact strict component={HomePage}/>
         <Route path="/projects" exact strict component={ProjectsPage}/>
         <Route path="/about" exact strict component={AboutPage}/>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     );
   }
