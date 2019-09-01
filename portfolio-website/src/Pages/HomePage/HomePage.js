@@ -10,16 +10,12 @@ import scrollToComponent from 'react-scroll-to-component';
 
 class HomePage extends Component {
 
-    componentDidMount() {
-        scrollToComponent(this.proj, {align: 'top'});
-    }
-
     scrollToSection = (section) => {
         switch (section) {
-            case 'about': scrollToComponent(this.about); break;
-            case 'tech':  scrollToComponent(this.tech); break;
-            case 'proj':  scrollToComponent(this.proj); break;
-            case 'cont':  scrollToComponent(this.cont); break;
+            case 'about': scrollToComponent(this.about, {align: 'top'}); break;
+            case 'tech': scrollToComponent(this.tech, {align: 'top'}); break;
+            case 'proj': scrollToComponent(this.proj, {align: 'top'}); break;
+            case 'cont': scrollToComponent(this.cont, {align: 'top'}); break;
         }
     }
 

@@ -1,8 +1,8 @@
 .bannerContainer {
     display: flex;
     background: linear-gradient(#ffff, #fff1),
-    center/cover no-repeat url('/images/bg4.jpg');
-    min-height: calc(100vh - 4px);
+    center/cover no-repeat url('/images/banner.jpg');
+    min-height: calc(100vh - 3px);
     color: #333;
 }
 

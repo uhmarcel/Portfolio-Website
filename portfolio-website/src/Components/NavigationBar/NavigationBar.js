@@ -19,7 +19,7 @@ class NavigationBar extends Component {
         return (
             <div className='fixed-top shado'>
                 <Navbar color="dark" dark expand="md">
-                    <NavbarBrand><span className='lead text-light'>marcelriera.me</span></NavbarBrand>
+                    <NavbarBrand><FontAwesomeIcon icon={faTwitter} /></NavbarBrand>
                     <NavbarToggler onClick={this.toogleNavbar} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>

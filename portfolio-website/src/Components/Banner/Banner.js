@@ -17,7 +17,7 @@ class Banner extends Component {
                         <BrandLinks/>
                     </Container>
                 </div>
-                <div className='bg-dark' style={{height: '4px'}}/>
+                <div className='bg-dark' style={{height: '3px'}}/>
           </div>
         );
     }
