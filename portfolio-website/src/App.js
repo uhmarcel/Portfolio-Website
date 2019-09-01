@@ -9,9 +9,10 @@ import NavigationBar from './Components/NavigationBar/NavigationBar';
 import Footer from './Components/Footer/Footer';
 import scrollToComponent from 'react-scroll-to-component';
 
+
 class App extends Component {
 
-  scrollToSection = (section) => {
+  scrollTo = (section) => {
     switch (section) {
       case 'about': scrollToComponent(this.about, {align: 'top'}); break;
       case 'home': scrollToComponent(this.home, {align: 'top'}); break;
@@ -26,13 +27,13 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <NavigationBar scrollTo={this.scrollToSection} />
+        <NavigationBar scrollTo={this.scrollTo} />
         <Banner ref={(r) => this.home=r}/>
+        <AboutSection  ref={(r) => this.about=r} scrollTo={this.scrollTo} />
+        <hr className='my-2' />
         <ServicesSection ref={(r) => this.serv=r} />
         <hr className='my-2' />
-        <AboutSection  ref={(r) => this.about=r} scrollTo={this.scrollToSection} />
-        <hr className='my-2' />
-        <TechnicalSection ref={(r) => this.tech=r} scrollTo={this.scrollToSection} />
+        <TechnicalSection ref={(r) => this.tech=r} scrollTo={this.scrollTo} />
         <hr className='my-2' />
         <ProjectsSection ref={(r) => this.proj=r}/>
         <hr className='my-2' />
