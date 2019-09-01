@@ -144,16 +144,14 @@
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "github": "",
-            "img": "",
-            "demo": "",
+            "title": "Truth Table to Boolean Expression GUI",
+            "description": "A tool used to generate boolean expressions from a truth table. The resulting expression can be given in both conjuctive or disjuntive normal form.",
+            "github": "https://github.com/uhmarcel/Logic-Algorithm",
+            "img": "http://uhmarcel.github.io/load/img/logic.PNG",
+            "demo": "http://uhmarcel.github.io/load/download/logic.jar",
             "technologies": [
-                "JS",
-                "React",
-                "Bootstrap",
-                "PokeAPI"
+                "Java",
+                "SwingGUI"
             ]
         }
     ]

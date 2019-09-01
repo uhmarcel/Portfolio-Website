@@ -14,29 +14,36 @@ class NavigationBar extends Component {
         this.setState(prevState => ({isOpen: !prevState.isOpen}));
     }
 
+    closeNavbar = () => {
+        this.setState({isOpen: false});
+    }
+
     render() {
         const { scrollTo } = this.props;
         return (
             <div className='fixed-top shado'>
                 <Navbar color="dark" dark expand="md">
-                    <NavbarBrand><FontAwesomeIcon icon={faTwitter} /></NavbarBrand>
+                    <NavbarBrand/> 
                     <NavbarToggler onClick={this.toogleNavbar} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem className='clickable' onClick={() => scrollTo('about')}>
+                            <NavItem className='clickable' onClick={() => {scrollTo('about'); this.closeNavbar();}}>
                                 <NavLink>About</NavLink>
                             </NavItem>
-                            <NavItem className='clickable' onClick={() => scrollTo('tech')}>
+                            <NavItem className='clickable' onClick={() => {scrollTo('serv'); this.closeNavbar();}}>
+                                <NavLink>Services</NavLink>
+                            </NavItem>
+                            <NavItem className='clickable' onClick={() => {scrollTo('tech'); this.closeNavbar();}}>
                                 <NavLink>Skills</NavLink>
                             </NavItem>
-                            <NavItem className='clickable' onClick={() => scrollTo('proj')}>
+                            <NavItem className='clickable' onClick={() => {scrollTo('proj'); this.closeNavbar();}}>
                                 <NavLink>Projects</NavLink>
                             </NavItem>
-                            <NavItem className='clickable' onClick={() => scrollTo('cont')}>
+                            <NavItem className='clickable' onClick={() => {scrollTo('cont'); this.closeNavbar();}}>
                                 <NavLink>Contact</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink>Resume</NavLink>
+                                <NavLink href='/resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</NavLink>
                             </NavItem>
                             <NavItem className='pl-md-2'> 
                                 <div className='brandContainer'>

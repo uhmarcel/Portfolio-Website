@@ -20,7 +20,7 @@ li {
 }
 
 .line {
-    background: #c55;
+    background: #6cacdc;
     margin: auto;
     width: 260px;
     height: 3px;
@@ -46,7 +46,3 @@ li {
 .clickable {
     cursor: pointer;
 }
-
-/* p {
-    font-size: 15px;
-} */

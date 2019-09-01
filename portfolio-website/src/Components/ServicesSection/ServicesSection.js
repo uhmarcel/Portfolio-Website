@@ -10,7 +10,10 @@ class ServicesSection extends Component {
     render() {
         return (
             <div>
-                <Container>
+                <Container className='my-5'>
+                    <h1 className='sectionTitle lead'>Services</h1>
+                    <div className='line mb-4'/>
+                    
                     <Row className='pb-5'>
                         <Col md='4'>
                             <ServicesItem img={softwarePNG} title='Software Engineering' description='Customizable software solutions made to fit specific business needs.'/>

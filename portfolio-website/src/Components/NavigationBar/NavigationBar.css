@@ -1,6 +1,7 @@
 .brandNavbar {
     color: #999;
     padding-right: 7px;
+    transition: all ease-in 0.1s;
 }
 
 .brandNavbar:hover {
@@ -9,4 +10,13 @@
 
 .brandContainer {
     margin: 8px 0 0 0;
+}
+
+.homeButton {
+    color: #ccc;
+    transition: all ease-in 0.1s;
+}
+
+.homeButton:hover {
+    color: #eee;
 }

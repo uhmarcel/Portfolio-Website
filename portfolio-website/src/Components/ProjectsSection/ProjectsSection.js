@@ -6,15 +6,13 @@ import projectsJSON from '../../Assets/projects';
 class ProjectsSection extends Component {
 
     render() {
-        const img = 'https://cdn.shopify.com/s/files/1/1297/3303/products/21-hardwood-player-s-chessboard-with-2-25-squares-jlp-usa-21184577793_grande.jpg?v=1516082090';
-        console.log(projectsJSON);
         return (
-            <div className='pt-5 pb-5'>
+            <div className='py-5'>
                 <Container className='text-center'>
                     <h1 className='sectionTitle lead'>Some of My Work</h1>
                     <div className='line mb-4'/>
-                    <p>Interested in building a project together? <br/>You can reach me at <b>contact@marcelriera.me</b>, or you can fill the form below.</p>
-                    <Row>
+                    <p>Here are some of the projects I've worked on. You can see more at my <a href='https://github.com/uhmarcel' target='_blank' rel='noopener noreferrer'>github</a> page.</p>
+                    <Row className='pb-3'>
                         {
                             projectsJSON.projects.map(p => {
                                 return(

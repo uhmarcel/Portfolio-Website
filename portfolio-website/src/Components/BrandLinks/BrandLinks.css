@@ -1,6 +1,7 @@
 .brandIcon {
     color: #5B9BCB;
     padding-right: 8px;
+    transition: all ease-in 0.1s;
 }
 
 .brandIcon:hover {

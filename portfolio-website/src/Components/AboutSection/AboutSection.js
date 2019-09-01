@@ -20,9 +20,9 @@ class AboutSection extends Component {
                             <img className='profilePicture' src={profilePicture} alt={"That's me"} />
                         </Col>
                         <Col md='4' className='p-5'>
-                            <p className='font-weight-bold header'>Hello!</p>
+                            <p className='font-weight-bold header'>Hi</p>
                             <p>My name is Marcel Riera. I'm a Senior student of Computer Science at Florida International University. I enjoy the process of engineering software, coming up with logic systems to solve problems.</p>
-                            <p>I've developt desktop, mobile and web applications. If you are interested, you can check some of the projects I've done <span className='btn-link' onClick={() => scrollTo('proj')}>below</span>.</p>
+                            <p>I've developt desktop, mobile and web applications. If you are interested, you can check some of the <span className='btn-link' onClick={() => scrollTo('proj')}>projects</span> I've done below.</p>
 
                         </Col>
                         <Col md='4' className='p-5'>
